@@ -1,4 +1,5 @@
-import React, { useContext } from 'react';
+// eslint-disable-next-line no-unused-vars
+import React, { useContext } from 'react'; 
 import { useParams } from 'react-router-dom';
 import { ShopContext } from './../Context/ShopContext';
 import Breadcrums from '../Component/Breadcrums/Breadcrums';
@@ -14,7 +15,7 @@ const Product = () => {
   return (
     <div>
       <Breadcrums product1={Product1} />
-      <ProductDisplay product1={product1}/>
+      <ProductDisplay product1={Product1}/>
     </div>
   );
 }
